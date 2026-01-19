@@ -18,39 +18,99 @@
             width: 99vw;
             height: 300vh;
             background-color: rgb(11, 7, 7);
-            border: 10px solid white;
+            border: 5px solid white;
         }
         
         .header{
             margin-left: 45%;
+            margin-top: 10px;
         }
-        .header,h1{
+        .header h1{
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 50px;
             color: greenyellow;
+            margin-top: 15px;
             
         }
-        .header,h3{
+        .header h3{
             font-size:x-large;
-            color: greenyellow;
+            color: rgb(0, 82, 3);
             align-content: center;
         }
+        .upper{
+            display: flex;
+            font-size: 30px;
             
-        .line{
-            height: 2%;
-            width: 100%;
-            background-color: antiquewhite;
+        }  
+        .topleft{
+            font-size: 100px;
+            color: greenyellow;
+            display: flex;
+            gap: 80px;
+            font-size: medium;
+            margin-top: 40px;
+            margin-left: 50px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .topright{
+            color: greenyellow;
+            display: flex;
+            gap: 80px;
+            font-size: medium;
+            margin-top: 40px;
+            margin-left: 50%;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+    
+        .main h1{
+            color: rgb(0, 82, 3);
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+            font-size: 300px;
+            margin-bottom: 0;   /* remove gap below WE */
+            line-height: 1;
+            margin-left: 30px; 
+        }
+        .main h3{
+            color: greenyellow;
+            font-family:fantasy;
+            font-size: 180px;
+            margin-top: 5px;    /* small controlled gap */
+            line-height: 1;
+            margin-left: 30px;
+            
+        }
+        .typewriter{
+
         }
 </style>
 <body>
     <div class = "container">
         <div class = "header">
-        <h1>trackery</h1>
-        <h3>lets track!</h3>
-        <div class = "line"></div>
-        </div> 
+            <h1>trackery</h1>
+            <h3>lets track!</h3></div>
+            
+            <div class="upper">
+                <div class = "topleft">
+                    <h3>home</h3>
+                    <h3>community</h3>
+                    <h3>purpose</h3>
+            </div>
+                <div class="topright">
+                    <h3>FAQ</h3>
+                    <h3>contact</h3>
+                    <h3>sign up</h3>
+                </div>
+            </div>    
+            <div class="typewriter">
+                <div class="main">
+                <h1>WE</h1>
+                <h3>believe</h3>
+            </div>
+            </div>    
 
     </div>
-    
 </body>
 </html>
