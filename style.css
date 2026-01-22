@@ -21,12 +21,13 @@
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 50px;
             color: greenyellow;
+            opacity: 100%;
             margin-top: 15px;
             
         }
         .header h3{
             font-size:x-large;
-            color: rgb(0, 82, 3);
+            color: red;
             align-content: center;
         }
         .upper{
@@ -62,6 +63,7 @@
         .main h1{
             margin-top: 80px;
             color: greenyellow;
+            opacity: 80%;
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         
             font-size: 300px;
@@ -71,6 +73,7 @@
         }
         .main h3{
             color: red;
+            opacity: 60%;
             font-family:fantasy;
             font-size: 180px;
             margin-top: 180px;    /* small controlled gap */
@@ -125,3 +128,38 @@
             color: greenyellow;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
+        blockquote{
+            color: bisque;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            margin-left: 35%;
+            margin-top: 50px;
+        }
+        .quote-box{
+                        
+            margin: 100px auto;      
+        }
+
+        .quote-text{
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 50px;
+            color: white;
+        }
+
+        .author{
+            text-align: right;
+            font-size: xx-large;
+            color: antiquewhite;
+            margin-top: 10px;
+            opacity: 0.7;
+            margin-right: 32%;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+
+        
+      
