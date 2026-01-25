@@ -9,7 +9,7 @@
         }
         .container{
             width: 99vw;
-            height: 300vh;
+            height: 200vh;
             background-color: rgb(11, 7, 7);
             border: 5px solid white;
         }
@@ -149,34 +149,36 @@
         }
         .quote-box{
                         
-            margin: 100px auto;      
+            margin: 20px;      
         }
 
         .quote-text{
             text-align: center;
-            font-family: 'Dancing Script', cursive;
-            font-size: 50px;
-            color: white;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 100px;
+            color:rgb(255, 0, 0);
+            opacity: 90%;
+            margin-top: 0%;
         }
 
         .author{
             text-align: right;
-            font-size: xx-large;
-            color: antiquewhite;
+            font-size:50px;
+            color: rgb(255, 230, 0);
+            font-style: normal;
+
             margin-top: 10px;
-            opacity: 0.7;
-            margin-right: 32%;
+            opacity: 90%;
+            margin-right: 1%;
             font-family: 'Bebas Neue', sans-serif;
         }
-        
-        .card{
-          
-            margin-top: 2%;
-        }
+              
         .cardsMTW{
+            margin-top: 0%;
             display:flex;
-            margin-left: 23%;
+            margin-left: 15%;
             gap: 80px;
+            margin-top: 1px;
             
         }
        
@@ -190,7 +192,8 @@
         }
         .monday h2{
             text-align: center;
-            color: beige;
+            color: rgb(255, 255, 0);
+            font-size: 30px;
         }
 
         .tuesday{
@@ -202,9 +205,9 @@
         }
         .tuesday h2{
             text-align: center;
-            color:beige
+            color:rgb(255, 255, 0);
+            font-size: 30px;
         }
-
 
         .wednesday{
             border-radius: 20%;
@@ -216,33 +219,31 @@
         }
         .wednesday h2{
             text-align: center;
-            color: beige;
+            color: rgb(255, 255, 0);
+            font-size: 30px;
         }
-        .cardstf{
-            display:flex;
-            margin-left: 33%;
-            border-radius: 20%;
-            gap: 150px;
-            border-color: red;
-            border: 100px;
-            
-
-        }
-
-
         .thursday{
             border-radius: 20%;
             border-color: red;
             border: 100px;
             height: 300px;
             width: 300px;
-            
+        
         }
         .thursday h2{
             text-align: center;
-            color: beige;
+            color: rgb(255, 255, 0);
+            font-size: 30px;
         }
-        .friday{
+       
+        .cardsss{
+            margin-top: 0%;
+            display:flex;
+            margin-left: 24%;
+            gap: 100px;
+            
+        }
+         .friday{
             border-radius: 20%;
             border-color: red;
             border: 100px;
@@ -251,15 +252,9 @@
         }
         .friday h2{
             text-align: center;
-            color: beige;
+            color: rgb(255, 255, 10);
+            font-size: 30px;
         }
-        .cardsss{
-            display:flex;
-            margin-left: 37%;
-            gap: 1px;
-            margin-top: 2%;
-        }
-
         .saturday{
             border-radius: 20%;
             border-color: red;
@@ -270,12 +265,13 @@
         }
         .saturday h2{
             text-align: center;
-            color: beige;
+            color: rgb(255, 255, 0);
+            font-size: 30px;
         }
 
 
         .sunday{
-             border-radius: 20%;
+            border-radius: 20%;
             border-color: red;
             border: 100px;
             height: 300px;
@@ -283,8 +279,9 @@
             
         }
         .sunday h2{
-            text-align: center;
-            color: beige;
+            text-align:center;
+            color: rgb(255, 255, 5);
+            font-size: 30px;
         }
         .monday img,
         .tuesday img,
@@ -293,9 +290,9 @@
         .friday img,
         .saturday img,
         .sunday img {
-            width: 85%;
-            height: 200px;
-            object-fit: cover;        /* no stretching */
+            width: 55%;
+            height: 60%;
+            object-fit:none;        /* no stretching */
             border-radius: 14px;
         }
         .hero {
@@ -323,3 +320,30 @@
             position: relative;
             z-index: 2;
         }
+        .hero,
+        .hero2 {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .bg-video {
+            opacity: 40%;
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .hero > div,
+        .hero2-content {
+            position: relative;
+            z-index: 2;
+        }
+
+
+
+
