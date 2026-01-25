@@ -4,7 +4,7 @@
             box-sizing: border-box;
         }
         body{
-        background-color: black;
+        
         background-image: linear-gradient((90deg,rgba(0, 0, 0, 1) 0%, rgba(110, 35, 35, 1) 58%, rgba(253, 29, 29, 1) 100%, rgba(252, 176, 69, 1) 100%));        
         }
         .container{
@@ -15,15 +15,15 @@
         }
         
         .header{
-            margin-left: 45%;
-            margin-top: 10px;
+            margin-left: 47%;
+            margin-top: 0px;
         }
         .header h1{
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 50px;
             color: greenyellow;
             opacity: 100%;
-            margin-top: 15px;
+            margin-top: 5px;
             
         }
         .header h3{
@@ -31,60 +31,65 @@
             color: red;
             align-content: center;
         }
-        .upper{
-            display: flex;
-            font-size: 30px;
+        .upper {
+        display: flex;
+        justify-content: space-between; /* left & right on same line */
+        align-items: center;
+        padding: 40px 60px;
+        
+        }
             
-        }  
-        .topleft{
-            font-size: 100px;
-            color: greenyellow;
-            display: flex;
-            gap: 80px;
-            font-size: medium;
-            margin-top: 40px;
-            margin-left: 50px;
-            font-family: 'Times New Roman', Times, serif;
-
+        
+        .topleft {
+        display: flex;
+        gap: 80px;
         }
-        .topright{
-            color: greenyellow;
-            display: flex;
-            gap: 80px;
-            font-size: medium;
-            margin-top: 40px;
-            margin-left: 50%;
-            font-family: 'Times New Roman', Times, serif;
 
+        .topleft h3 {
+            color: greenyellow;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
         }
+
+          
+        .topright {
+        display: flex;
+        gap: 80px;
+        }
+
+        .topright h3 {
+        color: greenyellow;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+        }
+
         .main{
             display:flex;
         }
     
-        .main h1{
+        /*.main h1{
             margin-top: 80px;
             color: greenyellow;
             opacity: 80%;
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         
             font-size: 300px;
-            margin-bottom: 0;   /* remove gap below WE */
+            margin-bottom: 0;   
             line-height: 1;
             margin-left: 30px; 
         }
         .main h3{
             color: red;
-            opacity: 60%;
+            opacity: 80%;
             font-family:fantasy;
             font-size: 180px;
-            margin-top: 180px;    /* small controlled gap */
+            margin-top: 180px;    
             line-height: 1;
             margin-left: 100px;
         
             
         }
-        /* Typewriter effect for believe */
-        .typewriter-text {
+        
             overflow: hidden;
             white-space: nowrap;
             width: 0;
@@ -92,7 +97,7 @@
                     
         }
 
-        /* typing animation */
+       
         @keyframes typing {
             from { width: 0 }
             to { width: 8ch }
@@ -105,7 +110,7 @@
             animation: typing 5s steps(4, end) infinite;
         }
 
-        /* typing animation */
+      
         @keyframes typing {
             from { width: 0 }
             to { width: 8ch }
@@ -113,21 +118,22 @@
         .secondary{
             display: flex;
         }
+            */
         
         .secondary h1{
-            font-size: 280px;
-            margin-top: 0px;
-            margin-left: 30px;
+            font-size: 200px;
+            margin-top: 25.5%;
+            text-align: center;
             color: red;
-            opacity: 80
-            %;
+            opacity: 90%;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
          .secondary h3{
-            margin-top: 40px;
+            margin-top: 10px;
 
             font-size: 300px;
             margin-left: 30px;
+            opacity: 80%;
             color: greenyellow;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
@@ -162,66 +168,158 @@
             margin-right: 32%;
             font-family: 'Bebas Neue', sans-serif;
         }
-
-        .cards{
-            display:flex;
+        
+        .card{
+          
+            margin-top: 2%;
         }
         .cardsMTW{
             display:flex;
-            margin-left: 25%;
+            margin-left: 23%;
+            gap: 80px;
+            
         }
        
         .monday{
+            border-radius: 20%;
+            border-color: rgb(255, 0, 0);
+            border: 100px;
             height: 300px;
             width: 300px;
-            background-color:antiquewhite;
+            
+        }
+        .monday h2{
+            text-align: center;
+            color: beige;
         }
 
         .tuesday{
+            border-radius: 20%;
+            border-color: red;
+            border: 100px;
             height: 300px;
-            width: 300px;
-            background-color:antiquewhite;
+            width: 300px;            
+        }
+        .tuesday h2{
+            text-align: center;
+            color:beige
         }
 
 
         .wednesday{
+            border-radius: 20%;
+            border-color: red;
+            border: 100px;
             height: 300px;
             width: 300px;
-            background-color:antiquewhite;
+            
+        }
+        .wednesday h2{
+            text-align: center;
+            color: beige;
         }
         .cardstf{
             display:flex;
             margin-left: 33%;
+            border-radius: 20%;
+            gap: 150px;
+            border-color: red;
+            border: 100px;
+            
+
         }
 
 
         .thursday{
+            border-radius: 20%;
+            border-color: red;
+            border: 100px;
             height: 300px;
             width: 300px;
-            background-color:antiquewhite;
+            
+        }
+        .thursday h2{
+            text-align: center;
+            color: beige;
+        }
+        .friday{
+            border-radius: 20%;
+            border-color: red;
+            border: 100px;
+            height: 300px;
+            width: 300px;
+        }
+        .friday h2{
+            text-align: center;
+            color: beige;
         }
         .cardsss{
             display:flex;
-            margin-left: 25%;
+            margin-left: 37%;
+            gap: 1px;
+            margin-top: 2%;
         }
-
-
-        .friday{
-            height: 300px;
-            width: 300px;
-            background-color:antiquewhite;
-        }
-
 
         .saturday{
+            border-radius: 20%;
+            border-color: red;
+            border: 100px;
             height: 300px;
             width: 300px;
-            background-color:antiquewhite;
+            
+        }
+        .saturday h2{
+            text-align: center;
+            color: beige;
         }
 
 
         .sunday{
+             border-radius: 20%;
+            border-color: red;
+            border: 100px;
             height: 300px;
             width: 300px;
-            background-color:antiquewhite;
+            
+        }
+        .sunday h2{
+            text-align: center;
+            color: beige;
+        }
+        .monday img,
+        .tuesday img,
+        .wednesday img,
+        .thursday img,
+        .friday img,
+        .saturday img,
+        .sunday img {
+            width: 85%;
+            height: 200px;
+            object-fit: cover;        /* no stretching */
+            border-radius: 14px;
+        }
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;     /* this covers ALL the part you showed */
+            overflow: hidden;
+        }
+
+        .bg-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 50;
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+            z-index: 1;
+        }
+
+        /* put ALL content above video */
+        .hero > div {
+            position: relative;
+            z-index: 2;
         }
